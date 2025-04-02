@@ -1,0 +1,17 @@
+.attendance-analysis {
+  width: 100%;
+  max-width: 600px; /* Adjust based on your layout */
+  margin: 0 auto; /* Center align the chart */
+}
+
+h2 {
+  text-align: center; /* Center align the heading */
+}
+
+/* In your main CSS file */
+@media (max-width: 600px) {
+  .chart-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
